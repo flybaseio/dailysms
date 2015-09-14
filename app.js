@@ -14,7 +14,7 @@ var api_key = "YOUR-API-KEY";
 var db = "dailysms";
 var collection = "users";
 
-var usersRef = require('datamcfly').init(db, collection, api_key);
+var usersRef = require('flybase').init(db, collection, api_key);
 
 var numbers = [];
 
